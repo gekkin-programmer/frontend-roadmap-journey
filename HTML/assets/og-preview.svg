@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="340" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Open Graph Tags — Social Media Link Preview</text>
+
+  <!-- Code side -->
+  <rect x="30" y="56" width="310" height="160" rx="8" fill="#1e1e2e" stroke="#444" stroke-width="1.5"/>
+  <text x="50" y="78" font-size="11" fill="#888" font-family="monospace">index.html — &lt;head&gt;</text>
+  <line x1="30" y1="84" x2="340" y2="84" stroke="#444" stroke-width="1"/>
+
+  <text x="46" y="104" font-size="11" font-family="monospace">
+    <tspan fill="#89b4fa">&lt;meta </tspan>
+    <tspan fill="#f38ba8">property</tspan>
+    <tspan fill="#fff">="og:title"</tspan>
+  </text>
+  <text x="60" y="120" font-size="11" font-family="monospace">
+    <tspan fill="#f38ba8">content</tspan>
+    <tspan fill="#a6e3a1">="Kelsi | Dev"</tspan>
+    <tspan fill="#89b4fa"> /&gt;</tspan>
+  </text>
+
+  <text x="46" y="140" font-size="11" font-family="monospace">
+    <tspan fill="#89b4fa">&lt;meta </tspan>
+    <tspan fill="#f38ba8">property</tspan>
+    <tspan fill="#fff">="og:description"</tspan>
+  </text>
+  <text x="60" y="156" font-size="11" font-family="monospace">
+    <tspan fill="#f38ba8">content</tspan>
+    <tspan fill="#a6e3a1">="My portfolio."</tspan>
+    <tspan fill="#89b4fa"> /&gt;</tspan>
+  </text>
+
+  <text x="46" y="176" font-size="11" font-family="monospace">
+    <tspan fill="#89b4fa">&lt;meta </tspan>
+    <tspan fill="#f38ba8">property</tspan>
+    <tspan fill="#fff">="og:image"</tspan>
+  </text>
+  <text x="60" y="192" font-size="11" font-family="monospace">
+    <tspan fill="#f38ba8">content</tspan>
+    <tspan fill="#a6e3a1">="preview.png"</tspan>
+    <tspan fill="#89b4fa"> /&gt;</tspan>
+  </text>
+
+  <!-- Arrow -->
+  <line x1="345" y1="136" x2="375" y2="136" stroke="#aaa" stroke-width="2" marker-end="url(#b)"/>
+  <defs>
+    <marker id="b" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#aaa"/>
+    </marker>
+  </defs>
+  <text x="358" y="129" text-anchor="middle" font-size="10" fill="#888">renders as</text>
+
+  <!-- Twitter/X card mockup -->
+  <rect x="380" y="56" width="310" height="200" rx="8" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Twitter header -->
+  <rect x="380" y="56" width="310" height="30" rx="8" fill="#000"/>
+  <rect x="380" y="72" width="310" height="14" fill="#000"/>
+  <text x="395" y="76" font-size="12" fill="#fff" font-weight="bold">𝕏</text>
+
+  <!-- Tweet card -->
+  <rect x="395" y="98" width="280" height="148" rx="8" fill="#f7f9f9" stroke="#cfd9de" stroke-width="1"/>
+  <!-- Image preview area -->
+  <rect x="395" y="98" width="280" height="80" rx="8" fill="#e8f5e9"/>
+  <rect x="395" y="162" width="280" height="16" fill="#e8f5e9"/>
+  <text x="535" y="144" text-anchor="middle" font-size="12" fill="#43a047">[ og:image preview.png ]</text>
+
+  <!-- Card text -->
+  <text x="406" y="196" font-size="12" fill="#0f1419" font-weight="bold">Kelsi | Dev</text>
+  <text x="406" y="212" font-size="11" fill="#536471">My portfolio.</text>
+  <text x="406" y="228" font-size="10" fill="#536471">mysite.com</text>
+
+  <text x="360" y="295" text-anchor="middle" font-size="12" fill="#888">When someone shares your link, this card appears automatically</text>
+</svg>

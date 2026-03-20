@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="380" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">HTML Page Structure</text>
+
+  <!-- DOCTYPE -->
+  <rect x="270" y="50" width="180" height="36" rx="6" fill="#6c757d"/>
+  <text x="360" y="73" text-anchor="middle" font-size="13" fill="#fff" font-family="monospace">&lt;!DOCTYPE html&gt;</text>
+  <line x1="360" y1="86" x2="360" y2="106" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- html -->
+  <rect x="270" y="106" width="180" height="36" rx="6" fill="#e34c26"/>
+  <text x="360" y="129" text-anchor="middle" font-size="14" fill="#fff" font-family="monospace">&lt;html&gt;</text>
+  <line x1="260" y1="124" x2="180" y2="164" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="460" y1="124" x2="540" y2="164" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- head -->
+  <rect x="90" y="164" width="180" height="36" rx="6" fill="#264de4"/>
+  <text x="180" y="187" text-anchor="middle" font-size="14" fill="#fff" font-family="monospace">&lt;head&gt;</text>
+
+  <!-- body -->
+  <rect x="450" y="164" width="180" height="36" rx="6" fill="#264de4"/>
+  <text x="540" y="187" text-anchor="middle" font-size="14" fill="#fff" font-family="monospace">&lt;body&gt;</text>
+
+  <!-- head children lines -->
+  <line x1="140" y1="200" x2="100" y2="240" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="180" y1="200" x2="180" y2="240" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="220" y1="200" x2="260" y2="240" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- head children -->
+  <rect x="44" y="240" width="112" height="34" rx="6" fill="#f0f4ff" stroke="#264de4" stroke-width="1.5"/>
+  <text x="100" y="262" text-anchor="middle" font-size="11" fill="#264de4" font-family="monospace">&lt;meta&gt;</text>
+
+  <rect x="124" y="240" width="112" height="34" rx="6" fill="#f0f4ff" stroke="#264de4" stroke-width="1.5"/>
+  <text x="180" y="262" text-anchor="middle" font-size="11" fill="#264de4" font-family="monospace">&lt;title&gt;</text>
+
+  <rect x="204" y="240" width="112" height="34" rx="6" fill="#f0f4ff" stroke="#264de4" stroke-width="1.5"/>
+  <text x="260" y="262" text-anchor="middle" font-size="11" fill="#264de4" font-family="monospace">&lt;link&gt;</text>
+
+  <!-- body children lines -->
+  <line x1="500" y1="200" x2="450" y2="240" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="540" y1="200" x2="540" y2="240" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="580" y1="200" x2="630" y2="240" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- body children -->
+  <rect x="394" y="240" width="112" height="34" rx="6" fill="#fff4f0" stroke="#e34c26" stroke-width="1.5"/>
+  <text x="450" y="262" text-anchor="middle" font-size="11" fill="#e34c26" font-family="monospace">&lt;header&gt;</text>
+
+  <rect x="484" y="240" width="112" height="34" rx="6" fill="#fff4f0" stroke="#e34c26" stroke-width="1.5"/>
+  <text x="540" y="262" text-anchor="middle" font-size="11" fill="#e34c26" font-family="monospace">&lt;main&gt;</text>
+
+  <rect x="574" y="240" width="112" height="34" rx="6" fill="#fff4f0" stroke="#e34c26" stroke-width="1.5"/>
+  <text x="630" y="262" text-anchor="middle" font-size="11" fill="#e34c26" font-family="monospace">&lt;footer&gt;</text>
+
+  <!-- Legend -->
+  <rect x="40" y="320" width="14" height="14" rx="3" fill="#6c757d"/>
+  <text x="60" y="332" font-size="12" fill="#555">Document declaration</text>
+  <rect x="220" y="320" width="14" height="14" rx="3" fill="#264de4"/>
+  <text x="240" y="332" font-size="12" fill="#555">Invisible (metadata)</text>
+  <rect x="400" y="320" width="14" height="14" rx="3" fill="#e34c26"/>
+  <text x="420" y="332" font-size="12" fill="#555">Visible content</text>
+
+  <!-- head label -->
+  <text x="180" y="310" text-anchor="middle" font-size="11" fill="#888">Not visible to users</text>
+  <!-- body label -->
+  <text x="540" y="310" text-anchor="middle" font-size="11" fill="#888">Visible to users</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="380" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Heading Hierarchy — h1 to h6</text>
+
+  <!-- Left: correct usage -->
+  <rect x="30" y="50" width="320" height="300" rx="8" fill="#fff" stroke="#28a745" stroke-width="2"/>
+  <rect x="30" y="50" width="320" height="32" rx="8" fill="#28a745"/>
+  <rect x="30" y="68" width="320" height="14" fill="#28a745"/>
+  <text x="190" y="71" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">✅ Correct — One h1, nested order</text>
+
+  <text x="50" y="108" font-size="24" fill="#1a1a2e" font-weight="bold">My Portfolio</text>
+  <text x="50" y="108" font-size="10" fill="#28a745" dx="178">← h1 (one per page)</text>
+
+  <text x="60" y="140" font-size="18" fill="#333" font-weight="bold">About Me</text>
+  <text x="60" y="140" font-size="10" fill="#555" dx="128">← h2</text>
+
+  <text x="70" y="166" font-size="15" fill="#555" font-weight="bold">My Skills</text>
+  <text x="70" y="166" font-size="10" fill="#888" dx="92">← h3</text>
+
+  <text x="80" y="188" font-size="13" fill="#777">HTML &amp; CSS</text>
+  <text x="80" y="188" font-size="10" fill="#aaa" dx="96">← h4</text>
+
+  <text x="60" y="214" font-size="18" fill="#333" font-weight="bold">Projects</text>
+  <text x="60" y="214" font-size="10" fill="#555" dx="96">← h2</text>
+
+  <text x="70" y="238" font-size="15" fill="#555" font-weight="bold">CV Project</text>
+  <text x="70" y="238" font-size="10" fill="#888" dx="106">← h3</text>
+
+  <text x="60" y="264" font-size="18" fill="#333" font-weight="bold">Contact</text>
+  <text x="60" y="264" font-size="10" fill="#555" dx="88">← h2</text>
+
+  <text x="190" y="335" text-anchor="middle" font-size="11" fill="#28a745">Clear structure — screen readers &amp; SEO love this</text>
+
+  <!-- Right: wrong usage -->
+  <rect x="370" y="50" width="320" height="300" rx="8" fill="#fff" stroke="#dc3545" stroke-width="2"/>
+  <rect x="370" y="50" width="320" height="32" rx="8" fill="#dc3545"/>
+  <rect x="370" y="68" width="320" height="14" fill="#dc3545"/>
+  <text x="530" y="71" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">❌ Wrong — Multiple h1s, random order</text>
+
+  <text x="390" y="108" font-size="24" fill="#1a1a2e" font-weight="bold">My Portfolio</text>
+  <text x="390" y="108" font-size="10" fill="#dc3545" dx="178">← h1</text>
+
+  <text x="400" y="136" font-size="24" fill="#1a1a2e" font-weight="bold">About Me</text>
+  <text x="400" y="136" font-size="10" fill="#dc3545" dx="130">← h1 again ❌</text>
+
+  <text x="410" y="160" font-size="11" fill="#777">My Skills</text>
+  <text x="410" y="160" font-size="10" fill="#dc3545" dx="74">← h6 (skipped levels)</text>
+
+  <text x="400" y="188" font-size="18" fill="#333" font-weight="bold">HTML &amp; CSS</text>
+  <text x="400" y="188" font-size="10" fill="#dc3545" dx="120">← h2 (out of order)</text>
+
+  <text x="400" y="218" font-size="24" fill="#1a1a2e" font-weight="bold">Projects</text>
+  <text x="400" y="218" font-size="10" fill="#dc3545" dx="130">← h1 again ❌</text>
+
+  <text x="410" y="248" font-size="24" fill="#1a1a2e" font-weight="bold">CV Project</text>
+  <text x="410" y="248" font-size="10" fill="#dc3545" dx="140">← h1 again ❌</text>
+
+  <text x="530" y="335" text-anchor="middle" font-size="11" fill="#dc3545">Confusing — breaks accessibility &amp; SEO</text>
+</svg>

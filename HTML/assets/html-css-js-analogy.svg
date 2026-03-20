@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="280" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">How HTML, CSS, and JavaScript Work Together</text>
+
+  <!-- HTML Box -->
+  <rect x="40" y="60" width="190" height="180" rx="10" fill="#fff4f0" stroke="#e34c26" stroke-width="2.5"/>
+  <rect x="40" y="60" width="190" height="44" rx="10" fill="#e34c26"/>
+  <rect x="40" y="90" width="190" height="14" fill="#e34c26"/>
+  <text x="135" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">HTML</text>
+  <text x="135" y="128" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">Structure</text>
+  <text x="135" y="152" text-anchor="middle" font-size="12" fill="#555">The skeleton of</text>
+  <text x="135" y="170" text-anchor="middle" font-size="12" fill="#555">the page — defines</text>
+  <text x="135" y="188" text-anchor="middle" font-size="12" fill="#555">content &amp; layout</text>
+  <text x="135" y="222" text-anchor="middle" font-size="28">🏗️</text>
+
+  <!-- CSS Box -->
+  <rect x="265" y="60" width="190" height="180" rx="10" fill="#f0f4ff" stroke="#264de4" stroke-width="2.5"/>
+  <rect x="265" y="60" width="190" height="44" rx="10" fill="#264de4"/>
+  <rect x="265" y="90" width="190" height="14" fill="#264de4"/>
+  <text x="360" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">CSS</text>
+  <text x="360" y="128" text-anchor="middle" font-size="13" fill="#1a35b5" font-weight="bold">Style</text>
+  <text x="360" y="152" text-anchor="middle" font-size="12" fill="#555">Colors, fonts, spacing,</text>
+  <text x="360" y="170" text-anchor="middle" font-size="12" fill="#555">and layout — makes</text>
+  <text x="360" y="188" text-anchor="middle" font-size="12" fill="#555">it look good</text>
+  <text x="360" y="222" text-anchor="middle" font-size="28">🎨</text>
+
+  <!-- JS Box -->
+  <rect x="490" y="60" width="190" height="180" rx="10" fill="#fffde7" stroke="#f0b429" stroke-width="2.5"/>
+  <rect x="490" y="60" width="190" height="44" rx="10" fill="#f0b429"/>
+  <rect x="490" y="90" width="190" height="14" fill="#f0b429"/>
+  <text x="585" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">JavaScript</text>
+  <text x="585" y="128" text-anchor="middle" font-size="13" fill="#b07d00" font-weight="bold">Behavior</text>
+  <text x="585" y="152" text-anchor="middle" font-size="12" fill="#555">Interactivity, logic,</text>
+  <text x="585" y="170" text-anchor="middle" font-size="12" fill="#555">and dynamic content</text>
+  <text x="585" y="188" text-anchor="middle" font-size="12" fill="#555">— makes it work</text>
+  <text x="585" y="222" text-anchor="middle" font-size="28">⚡</text>
+
+  <!-- Arrows -->
+  <line x1="230" y1="150" x2="265" y2="150" stroke="#aaa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="455" y1="150" x2="490" y2="150" stroke="#aaa" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#aaa"/>
+    </marker>
+  </defs>
+</svg>

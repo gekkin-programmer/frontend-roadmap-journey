@@ -1,0 +1,117 @@
+# HTML Notes
+
+## What is HTML?
+
+HTML (HyperText Markup Language) is the skeleton of every webpage. It defines the structure and content — not how it looks (that's CSS) or how it behaves (that's JavaScript).
+
+Think of it like building a house:
+- **HTML** = the walls, floors, and rooms (structure)
+- **CSS** = the paint, furniture, and decoration (style)
+- **JavaScript** = the electricity, doors, and switches (behavior)
+
+![HTML CSS JS analogy](./assets/html-css-js-analogy.svg)
+
+---
+
+## Basic Page Structure
+
+Every HTML file follows this structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <!-- Your content goes here -->
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>` — tells the browser this is HTML5
+- `<head>` — invisible metadata (title, SEO tags, links)
+- `<body>` — everything the user sees
+
+![HTML page structure diagram](./assets/html-structure.svg)
+
+---
+
+## Semantic HTML
+
+Semantic tags describe the *meaning* of content, not just its appearance. Always prefer semantic tags over generic `<div>` and `<span>`.
+
+| Tag | Use it for |
+|-----|-----------|
+| `<header>` | Top of the page or section |
+| `<nav>` | Navigation links |
+| `<main>` | The primary content of the page |
+| `<section>` | A thematic group of content |
+| `<article>` | Self-contained content (blog post, card) |
+| `<aside>` | Side content, supplementary info |
+| `<footer>` | Bottom of the page or section |
+| `<h1>`–`<h6>` | Headings (only one `<h1>` per page) |
+| `<p>` | Paragraph |
+| `<ul>` / `<ol>` / `<li>` | Lists |
+| `<a href="">` | Links |
+| `<img src="" alt="">` | Images (always include `alt`) |
+
+![Semantic HTML layout](./assets/semantic-html.svg)
+
+![Semantic vs non-semantic comparison](./assets/semantic-vs-div.svg)
+
+---
+
+## SEO Meta Tags
+
+These go inside `<head>` and help search engines understand your page:
+
+```html
+<meta name="description" content="A short description of the page." />
+<meta name="keywords" content="html, css, frontend, developer" />
+<meta name="author" content="Your Name" />
+
+<!-- Open Graph (for link previews on social media) -->
+<meta property="og:title" content="Page Title" />
+<meta property="og:description" content="Page description" />
+```
+
+![SEO meta tags in Google search result](./assets/seo-meta-preview.svg)
+
+![Open Graph social media preview](./assets/og-preview.svg)
+
+---
+
+## Favicon
+
+A favicon is the small icon shown in the browser tab.
+
+```html
+<!-- Using an image file -->
+<link rel="icon" type="image/png" href="favicon.png" />
+
+<!-- Using a Font Awesome icon (requires Font Awesome CDN in <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+```
+
+![Favicon in browser tab](./assets/favicon-example.svg)
+
+---
+
+## Common Mistakes to Avoid
+
+- Skipping `alt` on images (breaks accessibility)
+- Using `<br>` for spacing (use CSS margin/padding instead)
+- Using `<b>` or `<i>` for meaning (use `<strong>` and `<em>`)
+- Putting block elements (like `<div>`, `<p>`) inside inline elements (like `<span>`, `<a>`)
+- Using multiple `<h1>` tags on one page
+
+![Heading hierarchy](./assets/heading-hierarchy.svg)
+
+---
+
+## Exercise
+
+Once you've read through these notes, head to your folder in `CONTRIBUTORS/<your-name>/` and complete the **Single-Page CV** project described in your `index.md.txt`.

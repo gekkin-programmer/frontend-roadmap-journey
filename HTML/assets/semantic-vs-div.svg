@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="360" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Semantic Tags vs &lt;div&gt; Soup</text>
+
+  <!-- Left panel: div soup -->
+  <rect x="30" y="50" width="310" height="290" rx="8" fill="#fff" stroke="#dc3545" stroke-width="2"/>
+  <rect x="30" y="50" width="310" height="34" rx="8" fill="#dc3545"/>
+  <rect x="30" y="70" width="310" height="14" fill="#dc3545"/>
+  <text x="185" y="72" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">❌ Without Semantic Tags</text>
+
+  <text x="50" y="110" font-size="12" fill="#555" font-family="monospace">&lt;div class="header"&gt;</text>
+  <text x="68" y="128" font-size="12" fill="#555" font-family="monospace">  &lt;div class="logo"&gt;...&lt;/div&gt;</text>
+  <text x="50" y="146" font-size="12" fill="#555" font-family="monospace">&lt;/div&gt;</text>
+
+  <text x="50" y="170" font-size="12" fill="#555" font-family="monospace">&lt;div class="nav"&gt;</text>
+  <text x="68" y="188" font-size="12" fill="#555" font-family="monospace">  &lt;div&gt;Home&lt;/div&gt;</text>
+  <text x="68" y="206" font-size="12" fill="#555" font-family="monospace">  &lt;div&gt;About&lt;/div&gt;</text>
+  <text x="50" y="224" font-size="12" fill="#555" font-family="monospace">&lt;/div&gt;</text>
+
+  <text x="50" y="248" font-size="12" fill="#555" font-family="monospace">&lt;div class="content"&gt;</text>
+  <text x="68" y="266" font-size="12" fill="#555" font-family="monospace">  &lt;div&gt;Article text...&lt;/div&gt;</text>
+  <text x="50" y="284" font-size="12" fill="#555" font-family="monospace">&lt;/div&gt;</text>
+
+  <text x="50" y="308" font-size="12" fill="#555" font-family="monospace">&lt;div class="footer"&gt;...&lt;/div&gt;</text>
+
+  <text x="185" y="332" text-anchor="middle" font-size="11" fill="#dc3545">Meaningless — hard to read &amp; bad for SEO</text>
+
+  <!-- Right panel: semantic -->
+  <rect x="380" y="50" width="310" height="290" rx="8" fill="#fff" stroke="#28a745" stroke-width="2"/>
+  <rect x="380" y="50" width="310" height="34" rx="8" fill="#28a745"/>
+  <rect x="380" y="70" width="310" height="14" fill="#28a745"/>
+  <text x="535" y="72" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">✅ With Semantic Tags</text>
+
+  <text x="400" y="110" font-size="12" fill="#555" font-family="monospace">&lt;header&gt;</text>
+  <text x="418" y="128" font-size="12" fill="#555" font-family="monospace">  &lt;h1&gt;My Site&lt;/h1&gt;</text>
+  <text x="400" y="146" font-size="12" fill="#555" font-family="monospace">&lt;/header&gt;</text>
+
+  <text x="400" y="170" font-size="12" fill="#555" font-family="monospace">&lt;nav&gt;</text>
+  <text x="418" y="188" font-size="12" fill="#555" font-family="monospace">  &lt;a&gt;Home&lt;/a&gt;</text>
+  <text x="418" y="206" font-size="12" fill="#555" font-family="monospace">  &lt;a&gt;About&lt;/a&gt;</text>
+  <text x="400" y="224" font-size="12" fill="#555" font-family="monospace">&lt;/nav&gt;</text>
+
+  <text x="400" y="248" font-size="12" fill="#555" font-family="monospace">&lt;main&gt;</text>
+  <text x="418" y="266" font-size="12" fill="#555" font-family="monospace">  &lt;article&gt;Text...&lt;/article&gt;</text>
+  <text x="400" y="284" font-size="12" fill="#555" font-family="monospace">&lt;/main&gt;</text>
+
+  <text x="400" y="308" font-size="12" fill="#555" font-family="monospace">&lt;footer&gt;...&lt;/footer&gt;</text>
+
+  <text x="535" y="332" text-anchor="middle" font-size="11" fill="#28a745">Clear meaning — readable &amp; SEO-friendly</text>
+
+  <!-- VS badge -->
+  <circle cx="360" cy="195" r="22" fill="#343a40"/>
+  <text x="360" y="201" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">VS</text>
+</svg>

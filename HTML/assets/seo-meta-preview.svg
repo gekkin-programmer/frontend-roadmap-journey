@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="340" fill="#f8f9fa" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">How SEO Meta Tags Appear in Google</text>
+
+  <!-- Code side -->
+  <rect x="30" y="56" width="310" height="150" rx="8" fill="#1e1e2e" stroke="#444" stroke-width="1.5"/>
+  <text x="50" y="78" font-size="11" fill="#888" font-family="monospace">index.html — &lt;head&gt;</text>
+  <line x1="30" y1="84" x2="340" y2="84" stroke="#444" stroke-width="1"/>
+
+  <text x="46" y="104" font-size="12" font-family="monospace">
+    <tspan fill="#c792ea">&lt;title&gt;</tspan>
+    <tspan fill="#a6e3a1">Kelsi | Frontend Dev</tspan>
+    <tspan fill="#c792ea">&lt;/title&gt;</tspan>
+  </text>
+
+  <text x="46" y="126" font-size="11" font-family="monospace">
+    <tspan fill="#89b4fa">&lt;meta </tspan>
+    <tspan fill="#f38ba8">name</tspan>
+    <tspan fill="#fff">="description"</tspan>
+  </text>
+  <text x="60" y="144" font-size="11" font-family="monospace">
+    <tspan fill="#f38ba8">content</tspan>
+    <tspan fill="#fff">="Junior frontend</tspan>
+  </text>
+  <text x="60" y="160" font-size="11" font-family="monospace">
+    <tspan fill="#fff">developer based in NY."</tspan>
+  </text>
+  <text x="46" y="178" font-size="11" font-family="monospace">
+    <tspan fill="#89b4fa">/&gt;</tspan>
+  </text>
+
+  <!-- Arrow -->
+  <line x1="345" y1="131" x2="375" y2="131" stroke="#aaa" stroke-width="2" marker-end="url(#a)"/>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#aaa"/>
+    </marker>
+  </defs>
+  <text x="358" y="124" text-anchor="middle" font-size="10" fill="#888">renders as</text>
+
+  <!-- Google result card -->
+  <rect x="380" y="56" width="310" height="180" rx="8" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Google search bar mockup -->
+  <rect x="390" y="66" width="290" height="22" rx="11" fill="#f1f3f4" stroke="#dfe1e5" stroke-width="1"/>
+  <text x="535" y="81" text-anchor="middle" font-size="11" fill="#70757a">kelsi frontend developer</text>
+
+  <!-- Search result -->
+  <text x="400" y="116" font-size="11" fill="#202124" font-family="Arial">mysite.com › about</text>
+  <text x="400" y="136" font-size="18" fill="#1a0dab">Kelsi | Frontend Dev</text>
+  <text x="400" y="156" font-size="13" fill="#4d5156">Junior frontend developer based in NY.</text>
+  <text x="400" y="174" font-size="13" fill="#4d5156">Passionate about clean UI and good code.</text>
+
+  <!-- Annotation arrows -->
+  <line x1="535" y1="136" x2="535" y2="226" stroke="#1a0dab" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="535" y="238" text-anchor="middle" font-size="11" fill="#1a0dab">↑ from &lt;title&gt;</text>
+
+  <line x1="480" y1="165" x2="480" y2="258" stroke="#4d5156" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="480" y="270" text-anchor="middle" font-size="11" fill="#4d5156">↑ from meta description</text>
+
+  <text x="360" y="310" text-anchor="middle" font-size="12" fill="#888">Good meta tags = better visibility in search results</text>
+</svg>
